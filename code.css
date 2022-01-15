@@ -1,0 +1,358 @@
+/*
+primary-color: #ed5034 ; rgb(237, 80, 52)
+font-family: "Poppins", sans-serif;
+
+*/
+
+html
+{
+	scroll-behavior:smooth;
+}
+body
+{
+	font-family: "Poppins", sans-serif !important;
+
+}
+.navbar
+{
+
+}
+.navbarrow
+{
+	box-shadow:0px 3px 5px rgba(0, 0, 0, 0.2);
+	padding:8px 0px;
+}
+.navbar-brand
+{
+	color:#111;
+	font-size:30px !important;
+	font-weight:700;
+}
+.navbar-brand:hover
+{
+	color:#111;
+}
+.nav-link
+{
+	font-size:14px;
+	letter-spacing:1px;
+	font-weight:100;
+	color:#111;
+	padding-left:15px !important;
+	padding-right:15px !important;
+}
+.nav-link:hover
+{
+	color:#ed5034;
+}
+
+.carousel,.carousel-inner,.carousel-item
+{
+	height: calc(90vh);
+	width:100%;
+}
+.bg1
+{
+	background-image: linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0.5) )  ,url(slide-1.jpg);
+	background-position:right;
+	background-size:cover;
+}
+.bg2
+{
+	background-image:linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0.5) ) ,url(slide-2.jpg);
+	background-position:center;
+	background-size:cover;
+}
+.bg3
+{
+	background-image:linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0.5) ) ,url(slide-3.jpg);
+	background-position:center;
+	background-size:cover;
+}
+
+.caption
+{
+	width:30%;
+	position:absolute;
+	top:10%;
+	left:10%;
+	padding:30px 20px;
+}
+
+.slider-heading
+{
+	font-size:30px;
+	font-weight:700;
+	color:#fff;
+}
+.slider-text
+{	font-size:13px;
+	color:#fff;
+	letter-spacing:1px;
+}
+
+/* End Slider */
+
+/* About */
+
+.sectiontitle
+{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #0f2f57;
+
+}
+.container h1{
+	color:red;
+}
+
+
+/* End About */
+/* Buttons */
+.mybtn
+{
+	background-color:#ed5034;
+	padding:8px 20px;
+	color:#fff;
+	text-decoration:none;
+	border-radius:4px;
+	letter-spacing:1px;
+}
+
+.mybtn1
+{
+	background-color:#ed5034;
+	padding:8px 20px;
+	color:#fff;
+	text-decoration:none;
+	border-radius:4px;
+	letter-spacing:1px;
+}
+
+
+
+
+
+.mybtn:hover
+{
+	background-color:#ed5034;
+	padding:8px 20px;
+	color:#fff;
+	text-decoration:none;
+
+}
+.mybtn2
+{
+	border:2px solid #ed5034;
+	padding:8px 20px;
+	color:#ed5034;
+	text-decoration:none;
+	border-radius:4px;
+	letter-spacing:1px;
+}
+.mybtn2:hover
+{
+	background-color:#ed5034;
+	text-decoration:none;
+	color:#fff;
+	transition:0.5s;
+
+}
+
+
+
+/* End Buttons */
+
+.main-editor{
+	height:50vh;
+   box-sizing: border-box; padding: 0; margin:0 ;   }
+     .btn { poistion:fixed;
+       right:0; padding: 0.4rem; width: 4rem;
+       background: rgb(0, 0, 0); color: gold;
+
+
+         font-size: 1rem; outline:none;
+         cursor:pointer;
+         height:90vh;
+         text-decoration: none;
+          }
+           .btn:hover{ color:white; background: blue;
+             }
+             .main-editor {
+                background: rgba(0, 0, 0, 0.5);
+                display: flex;
+                 width: 90%;
+								 height: 60%;
+								 padding: 1rem;
+                 box-shadow:0 2px 3px black;
+margin: 10px;
+
+                   justify-content: center;
+                   align-items: center;
+                    border: 7px solid #36383f;
+                    }
+                     .first { background-color: #ffffff; width: 50%;
+
+												overflow-x: hidden;
+                         overflow-y: auto;
+                          white-space: pre;
+                           box-shadow: 0 1px 1px rgb(22, 22, 22);
+													 box border: 10px;
+                           outline: width:40px;
+                            padding: 0.4rem;
+                             height: 90vh;
+                              }
+                              .second { background-color: rgb(220,220,220);
+																text-decoration: color:rgb(0, 0, 0);
+
+
+                                 width: 50%; overflow-y: auto;
+                                  white-space: pre; right: 0;
+                                   box-shadow: 0 1px 1px rgb(22, 22, 22);
+                                    padding: 0.4rem; height: 90vh;
+
+                                  }
+																	/* About */
+																	.aboutrow
+																	{
+																		padding: 100px 20px;
+																	}
+																	.sectiontitle
+																	{
+																	    font-size: 36px;
+																	    font-weight: 700;
+																	    text-transform: uppercase;
+																	    font-family: "Poppins", sans-serif;
+																	    color: #0f2f57;
+
+																	}
+																	.container h1{
+																		color:red;
+																	}
+																	.aboutrow p
+																	{
+																		font-weight: 400;
+																	  line-height: 1.5;
+																	  font-size:16px;
+
+
+																	}
+																	.aboutrow h4{
+																		color:red;
+																	font-size: 50px;
+
+
+																	}
+																	.aboutrow h4::after
+																	{
+																		content: "";
+																		display:inline-block;
+																		background-color: red;
+																		height:2px;
+																		width:200px;
+																	margin-bottom: 12px;
+
+
+																	}
+
+																	/* End About */
+																	/* Buttons */
+																	.mybtn
+																	{
+																		background-color:#ed5034;
+																		padding:8px 20px;
+																		color:#fff;
+																		text-decoration:none;
+																		border-radius:4px;
+																		letter-spacing:1px;
+																	}
+
+																	.card2
+{
+padding-top: 40px;
+width:23%;
+	height:180px;
+	background-color:#fff;
+		margin:10px;
+	float:left;
+	box-shadow:10px -5px 40px 0 rgba(0,0,0,10%);
+	transition:0.3s;
+}
+.card3
+{
+padding-top: 40px;
+width:23%;
+	height:180px;
+	background-color:#fff;
+		margin:10px;
+	float:left;
+	box-shadow:10px -5px 40px 0 rgba(0,0,0,10%);
+	transition:0.3s;
+}
+.card4
+{padding-top: 40px;
+
+width:23%;
+	height:180px;
+	background-color:#fff;
+	margin:10px;
+	float:left;
+	box-shadow:10px -5px 40px 0  rgba(0,0,0,10%);
+	transition:0.3s;
+
+}
+.aboutrow h4
+{
+	border:5px solid !black;
+
+}
+.aboutrow ul{
+	list-style: none;
+}
+
+.aboutrow i {
+	left:0;
+	top:2px;
+	font-size: 20px;
+	color:#ed502e;
+	line-height: 1;
+}
+.aboutcard
+{
+	padding-top: 40px;
+	padding bottom: 20px;
+		height:200px;
+		background-color:#fff;
+		box-shadow:20px -10px 50px 0 rgba(0,0,0,20%);
+		transition:0.3s;
+		margin-top: 30px;
+
+}
+#accordion h3
+{
+	font-weight: 400;
+    font-size: 34px;
+    color: #123a6d;
+}
+#accordion p
+{
+	font-size: 15px;
+	    color: #848484;
+
+
+}
+.card span{
+	color: #ed502e;
+    font-weight: 600;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+@media screen and (min-width:600 px){
+body {width:400px;
+height:200px;
+
+}
+}
